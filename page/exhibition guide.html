@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../lib/fontawesome/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/web_font.css">
+  <link rel="stylesheet" href="../css/style-pc.css" type="text/css" media="all and (min-width: 1023.9px)">
+  <link rel="stylesheet" href="../css/style-mobile.css" type="text/css" media="all and (max-width: 1023.9px)">
+   <!-- JavaScript & jQuery -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/common.js"></script>
+  <title>portfolio-2 | 전시안내 화폐박물관</title>
+  <meta name="description" content="화폐박물관 전시안내 서브 페이지입니다.">
+</head>
+<body>
+  <div class="wrapper">
+    <a href="#main" id="skip-nav">본문 바로가기</a>
+
+    <header id="header" class="ks_header">
+      <div class="container">
+        <h1><a href="../index.html"><img src="../img/logo.png" alt="KOMSCO 화폐박물관 CURRENCYMUSEUM"></a></h1>
+
+        <nav>
+          <span class="headerclose-m mobile"><a href="#"><img src="../img/icon/sear_close.png" alt=""><span class="ir-hidden">닫기버튼</span></a></span>
+          <ul class="nav_dep1">
+            <li>
+              <a href="#">이용안내</a>
+              <ul class="nav_dep2">
+                <li><a href="./guide.html">관람안내</a></li>
+                <li><a href="#">관람예약</a></li>
+                <li><a href="#">시설안내</a></li>
+                <li><a href="#">시설대관</a></li>
+                <li><a href="#">자원봉사신청</a></li>
+                <li><a href="#">질문과 답변</a></li>
+                <li><a href="#">찾아오시는 길</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">전시안내</a>
+              <ul class="nav_dep2">
+                <li><a href="./exhibition guide.html">상설전시관</a></li>
+                <li><a href="./exhibition guide.html">특별전시관</a></li>
+                <li><a href="./exhibition guide.html">랜선전시관</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">교육/행사</a>
+              <ul class="nav_dep2">
+                <li><a href="#">프로그램 안내</a></li>
+                <li><a href="#">신청 확인/취소</a></li>
+                <li><a href="#">교육자료</a></li>
+                <li><a href="#">포토 갤러리</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">소장품</a>
+              <ul class="nav_dep2">
+                <li><a href="#">유물검색</a></li>
+                <li><a href="#">기증 기탁 안내</a></li>
+                <li><a href="#">알람 복제 안내</a></li>
+                <li><a href="#">화폐소식</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">박물관소개</a>
+              <ul class="nav_dep2">
+                <li><a href="#">인사말</a></li>
+                <li><a href="#">설립목적</a></li>
+                <li><a href="#">연혁</a></li>
+                <li><a href="#">공지사항</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="nav_right">
+          <li class="pc"><a href="#">LOGIN</a></li>
+          <li><a href="#" class="sear-ico"><img src="../img/icon/header_sear_ico_black.png" alt="검색하기" class="pc"><img src="../img/icon/header_sear_ico.png" alt="검색하기" class="mobile"><span class="ir-hidden">검색</span></a>
+            <div class="search_box"></div>
+          </li>
+          <li class="hamburger_btn"><a href="#"><img src="../img/icon/header_allmenu_ico_black.png" alt="전체메뉴" class="pc"><img src="../img/icon/header_allmenu_ico .png" alt="전체메뉴" class="mobile"><span class="ir-hidden">메뉴</span></a></li>
+        </ul>
+      </div>
+      <!-- div.container -->
+      <div id="search-bg">
+        <div class="search-container">
+          <div class="form">
+            <div class="form-container">
+              <label for="search_txt" class="hidden">검색어</label>
+              <input type="text" name="" id="search_txt" placeholder="검색어를 입력하세요." title="검색어를 입력하세요.">
+              <input type="submit" value="검색" class="search">
+            </div>
+            <a href="#" class="btn_close">
+              <img src="../img/icon/sear_close.png" alt="닫기">
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="sub-main">
+      <section id="sub-visual" class="ex_guide">
+        <h2 class="sub-visual-title">전시안내</h2>
+        <div class="bar">
+          <div class="bar-wrap">
+            <ul>
+              <li class="home pc">
+                <a href="#">Home</a>
+              </li>
+              <li class="bar-menu1">
+                <a href="#">전시안내</a>
+                <em class="ir-hidden">열기</em>
+                <ul>
+                  <li><a href="#">이용안내</a></li>
+                  <li><a href="#">전시안내</a></li>
+                  <li><a href="#">교육/행사</a></li>
+                  <li><a href="#">소장품</a></li>
+                  <li><a href="#">박물관소개</a></li>
+                  <li><a href="#">홈페이지 가이드</a></li>
+                </ul>
+              </li>
+              <li class="bar-menu2">
+                <a href="#">상설전시관</a>
+                <em class="ir-hidden">열기</em>
+                <ul>
+                  <li><a href="#">관람안내</a></li>
+                  <li><a href="#">관람예약</a></li>
+                  <li><a href="#">시설안내</a></li>
+                  <li><a href="#">시설대관</a></li>
+                  <li><a href="#">자원봉사신청</a></li>
+                  <li><a href="#">질문과답변</a></li>
+                  <li><a href="#">찾아오시는 길</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="bar-right">
+              <li>
+                <a href="#" class="print pc">프린트</a>
+              </li>
+              <li>
+                <a href="#" class="sns-share">sns공유</a>
+              </li>
+            </ul>            
+          </div>
+        </div>
+      </section>
+
+      <section id="sub2-contents-top">
+        <div class="sub2-contents-top-wrap">
+         <h3>소개</h3>
+          <ul>
+            <li class="on">
+              <a href="#">
+                제1전시실
+                <strong>주화 역사관</strong>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                제2전시실
+                <strong>지폐 역사관</strong>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                제3전시실
+                <strong>위조방지 역사관</strong>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                제4전시실
+                <strong>특수 제품관</strong>
+              </a>
+            </li>
+          </ul>
+
+          <section class="on">
+            <div class="exhibi_infor">
+              <div class="img">
+                <img src="../img/exhibition_infor_01.jpeg" alt="제1전시실 주화역사관 [안내위치]">
+              </div>
+              <div class="text">
+                <h4>제 1전시실
+                <strong>주화 역사관</strong>
+                <span>1F</span>
+                </h4>
+                <p>주화역사관에서는 고대부터 현대에 이르기까지 사용되어온 다양한 종류의 주화를 살펴볼 수 있다. 우리나라 최초의 화폐인 고려시대 건원중보와 조선시대 상평통보, 고종 때 만들어진 대동은전과 전환국 설치 이후 만들어지기 시작한 근대주화, 한국은행 설립 후 발행된 우리나라 주화를 한 눈에 확인할 수 있다. 이 외에도 각종 국가적인 행사나 문화를 기념하기 위해 만든 기념주화와 조선시대의 기념주화라고 할 수 있는 별전 등 다양한 종류의 주화를 전시하고 있다.</p>
+              </div>
+              <div class="link">
+                <a href="#" class="btn-r">전시실 바로가기</a>
+                <a href="#" class="btn-w">안내도 보기</a>
+              </div>
+              <ul>
+                <li>
+                  <ol>
+                    <li><em>1</em>조선시대 엽전주조</li>
+                    <li><em>2</em>화폐의 기원</li>
+                    <li><em>3</em>고대주화</li>
+                    <li><em>4</em>고려시대주화</li>
+                    <li><em>5</em>조선시대주화</li>
+                    <li><em>6</em>옛날돈 이야기</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>7</em>돈궤</li>
+                    <li><em>8</em>고대 화폐주형</li>
+                    <li><em>9</em>근대주화 압인기</li>
+                    <li><em>10</em>신안해저인양 중국전</li>
+                    <li><em>11</em>희귀고전</li>
+                    <li><em>12</em>주화의소재, 세계의 은화, 세계의 위인</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>13</em>근대주화</li>
+                    <li><em>14</em>한국은행 주화</li>
+                    <li><em>15</em>역대 기념주화</li>
+                    <li><em>16</em>월드컵 기념주화</li>
+                    <li><em>17</em>올림픽 기념주화</li>
+                    <li><em>18</em>주화는 어떻게 만들까?</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="exhibi_infor">
+              <div class="img">
+                <img src="../img/exhibition_infor_02.jpeg" alt="제2전시실 지폐역사관 [안내위치]">
+              </div>
+              <div class="text">
+                <h4>제 2전시실
+                <strong>지폐 역사관</strong>
+                <span>2F</span>
+                </h4>
+                <p>지폐역사관에서는 ‘일본 제일은행권’을 시작으로 ‘구 한국은행권’, ‘조선은행권’으로 변화해 온 일제 강점기 우리나라의 지폐와 한국은행 설립 후 발행, 유통되기 시작해 오늘날까지 사용되고 있는 대한민국 지폐의 변천사를 살펴볼 수 있다. 또 짐바브웨에서 발행된 100조 달러 등 각국에서 만들어진 초고액권과 북한지폐 등도 전시하고 있으며, 일반적인 종이와 달리 특수기술로 제작되는 은행권 용지의 제작방법도 알아볼 수 있다.</p>
+              </div>
+              <div class="link">
+                <a href="#" class="btn-r">전시실 바로가기</a>
+                <a href="#" class="btn-w">안내도 보기</a>
+              </div>
+              <ul>
+                <li>
+                  <ol>
+                    <li><em>1</em>지폐의 역사</li>
+                    <li><em>2</em>일본 제일은행권</li>
+                    <li><em>3</em>광복 전 조선은행권</li>
+                    <li><em>4</em>관복 후 조선은행권</li>
+                    <li><em>5</em>구 한국은행권</li>
+                    <li><em>6</em>한국은행권</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>7</em>지폐와 우리문화</li>
+                    <li><em>8</em>은행권은 어떻게 만들까?</li>
+                    <li><em>9</em>요판인쇄기</li>
+                    <li><em>10</em>희귀지폐</li>
+                    <li><em>11</em>세계의 지폐이야기</li>
+                    <li><em>12</em>은행권용지는 어떻게 만들까?</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>13</em>은행권용지</li>
+                    <li><em>14</em>초지기</li>
+                    <li><em>15</em>북한의 지폐</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="exhibi_infor">
+              <div class="img">
+                <img src="../img/exhibition_infor_03.jpeg" alt="제3전시실 위조방지홍보관 [안내위치]">
+              </div>
+              <div class="text">
+                <h4>제 3전시실
+                <strong>위조방지 홍보관</strong>
+                <span>2F</span>
+                </h4>
+                <p>위조방지홍보관은 날로 정교해져 가는 은행권 및 유가증권류의 위변조 사례에 대응하는 한국조폐공사의 기술력과 노력을 보여주는 곳이다. 화폐의 건전한 유통에 기여하기 위해 마련된 전시관으로 우리나라를 비롯한 세계 각국의 화폐에 적용된 위조방지요소를 살펴볼 수 있다.</p>
+              </div>
+              <div class="link">
+                <a href="#" class="btn-r">전시실 바로가기</a>
+                <a href="#" class="btn-w">안내도 보기</a>
+              </div>
+              <ul>
+                <li>
+                  <ol>
+                    <li><em>1</em>우리 돈은 어떻게 생겼을까?</li>
+                    <li><em>2</em>내돈은 진짜일까?</li>
+                    <li><em>3</em>위조방지 기술의 필요성</li>
+                    <li><em>4</em>위조방지 기술의 발전</li>
+                    <li><em>5</em>위조방지 기술 개발분야</li>
+                    <li><em>6</em>세계 여러나라의 위조방지 요소</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section>
+            <div class="exhibi_infor">
+              <div class="img">
+                <img src="../img/exhibition_infor_04.jpeg" alt="제4전시실 특수제품관 [안내위치]">
+              </div>
+              <div class="text">
+                <h4>제 4전시실
+                <strong>특수 제품관</strong>
+                <span>2F</span>
+                </h4>
+                <p>주화역사관에서는 고대부터 현대에 이르기까지 사용되어온 다양한 종류의 주화를 살펴볼 수 있다. 우리나라 최초의 화폐인 고려시대 건원중보와 조선시대 상평통보, 고종 때 만들어진 대동은전과 전환국 설치 이후 만들어지기 시작한 근대주화, 한국은행 설립 후 발행된 우리나라 주화를 한 눈에 확인할 수 있다. 이 외에도 각종 국가적인 행사나 문화를 기념하기 위해 만든 기념주화와 조선시대의 기념주화라고 할 수 있는 별전 등 다양한 종류의 주화를 전시하고 있다.</p>
+              </div>
+              <div class="link">
+                <a href="#" class="btn-r">전시실 바로가기</a>
+                <a href="#" class="btn-w">안내도 보기</a>
+              </div>
+              <ul>
+                <li>
+                  <ol>
+                    <li><em>1</em>우표의 탄생</li>
+                    <li><em>2</em>그라비어 우표인쇄기</li>
+                    <li><em>3</em>우리나라 우정의 역사</li>
+                    <li><em>4</em>우리나라 우표와 북한우표</li>
+                    <li><em>5</em>나도 우표수집가</li>
+                    <li><em>6</em>우표는 어떻게 만들까?</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>7</em>시리즈 우표</li>
+                    <li><em>8</em>기념메달</li>
+                    <li><em>9</em>입상메달</li>
+                    <li><em>10</em>무궁화대훈장</li>
+                    <li><em>11</em>훈장</li>
+                    <li><em>12</em>포장</li>
+                  </ol>
+                </li>
+                <li>
+                  <ol>
+                    <li><em>13</em>세계의 화폐</li>
+                    <li><em>14</em>특수인쇄제품</li>
+                    <li><em>15</em>유로화</li>
+                    <li><em>16</em>기증화폐</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+     
+      <section id="satisfaction" class="pc">
+        <h3 class="ir-hidden">만족도조사</h3>
+        <p>이 페이지에서 제공하는 정보에 대하여 만족하십니까?</p>
+        <div class="form-box">
+          <ul class="input-list">
+            <li><input type="radio" name="field" id="field-01" value="f1"><label for="field-01">매우만족</label></li>
+            <li><input type="radio" name="field" id="field-02" value="f2"><label for="field-02">만족</label></li>
+            <li><input type="radio" name="field" id="field-03" value="f3"><label for="field-03">보통</label></li>
+            <li><input type="radio" name="field" id="field-04" value="f4"><label for="field-04">불만족</label></li>
+            <li><input type="radio" name="field" id="field-05" value="f5"><label for="field-05">매우불만족</label></li>
+          </ul>
+        </div>
+        <div class="text-box">
+          <input type="text" placeholder="여러분의 의견을 남겨주세요.">
+          <span>평가하기</span>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <ul class="link">
+            <li><a href="#" class="on">개인정보처리방침</a></li>
+            <li><a href="#">영상정보처리기기운영방침</a></li>
+          </ul>
+          <ul class="sns-link">
+            <li><a href="#"><img src="../img/icon/sns_link_ico1.png" alt="트위터"></a></li>
+            <li><a href="#"><img src="../img/icon/sns_link_ico2.png" alt="페이스북"></a></li>
+            <li><a href="#"><img src="../img/icon/sns_link_ico3.png" alt="유튜브"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <h1 class="pc"><a href="#"><img src="../img/footer_logo.png" alt="KOMSCO 화폐박물관 CURRENCYMUSEUM"></a></h1>
+          <div class="family-site">
+            <a href="#">패밀리사이트</a>
+            <ul>
+              <li><a href="#" target="_blank">한국조폐공사</a></li>
+              <li><a href="#" target="_blank">한국조폐공사쇼핑몰</a></li>
+              <li><a href="#" target="_blank">한국은행</a></li>
+              <li><a href="#" target="_blank">우표정보마당</a></li>
+            </ul>
+          </div>
+          <address>
+            <p><span>(34132) 대전광역시 유성구 과학로 80-67(가정동)</span><span>Tel : 042-870-1200</span><span>문화체육관광부장관 등록 제12호</span></p>
+            <p>Copyright © 2019 Currency Museum of Korea.</p>
+          </address>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script>
+  'use strict';
+
+    //header (pc)
+    $('ul.nav_dep1 > li').on('mouseenter focusin', function() {
+      $('#header.ks_header').addClass('on');
+    });
+
+    $('header').on('mouseleave', function() {
+      $('#header.ks_header').removeClass('on');
+    });
+    $('ul.nav_dep1 li:last-child ul.nav_dep2 li:last-child').on('mouseenter focusout' ,function() {
+      $('#header.ks_header').removeClass('on');
+    });
+
+
+    //header (mobile)
+    $('li.hamburger_btn > a').on('click',function(){
+      $('#header nav').addClass('on');
+    });
+    $('.headerclose-m > a').on('click',function(){
+      $('#header nav').removeClass('on');
+    });
+
+    $('ul.nav_dep1 > li > a').after().click(function () {
+      $(this).parent().toggleClass('on');
+    });
+
+   //search-icon
+      $('a.sear-ico').on('click',function() {
+      $('#search-bg').addClass('on');
+      });
+
+      $('a.btn_close').on('click',function() {
+      $('#search-bg').removeClass('on');
+      });
+
+    //sub-visual .bar
+      $('#sub-visual > div.bar div.bar-wrap > ul > li > a').on('click',function() {
+      $(this).siblings('ul').toggleClass('on');
+    });
+
+    //tap
+    $('.sub2-contents-top-wrap > ul > li > a').on('click', function() {
+    let index = $('.sub2-contents-top-wrap > ul > li').index($(this).parent());
+    $('.sub2-contents-top-wrap > ul >').removeClass('on');
+    $('.sub2-contents-top-wrap > ul >li:eq('+ index +')').addClass('on');
+    $('#sub2-contents-top section').removeClass('on');
+    $('#sub2-contents-top section:eq('+ index +')').addClass('on');
+    })
+
+   //family-site
+    $('#footer div.footer-bottom > div.container div.family-site > a').on('click',function() {
+    $('#footer div.footer-bottom > div.container div.family-site > ul').toggleClass('on');
+    });
+
+
+  </script>
+</body>
+</html>
