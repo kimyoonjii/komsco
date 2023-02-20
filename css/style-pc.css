@@ -61,7 +61,7 @@ bottom: 50px; width: 8px; height: 8px; background-color: #690909; border-radius:
 #header #search-bg div.search-container div.form a.btn_close {display: block; position: absolute; right: 230px; top: 40%; transform: translate(0, -40%);}
 
 /* main */
-#main-visual {position: relative; width: 100%; height: 100vh; padding-top: 80px; font-family: 'NotoSans'}
+#main-visual {position: relative; width: 100%; height: 100vh; overflow: hidden; padding-top: 80px; font-family: 'NotoSans'}
 #main-visual > div {position: relative; width: 100%; height: 100%;}
 #main-visual ul.slide li {}
 #main-visual ul.slide li img {position: relative; width: 100%; height: 100%;}
@@ -75,12 +75,12 @@ font-size: 17px; font-weight: 400; padding-right: 34px; background: url(../img/i
 .mySwiper-1 .swiper-pagination-bullet-active {width: 40px; transition: width .5s; border-radius: 5px; background-color: #690909; border: 1px solid transparent;}
 
 /* #main-section1 */
-#main-section1 {position: relative; width: 100%; height: 100vh; background: #f1f1f1 url(../img/main-section1-bg.jpeg) repeat;} 
+#main-section1 {position: relative; width: 100%; height: 100vh; overflow: hidden; background: #f1f1f1 url(../img/main-section1-bg.jpeg) repeat;} 
 #main-section1::before {content: ''; width: 305px; height: 571px; background: url(../img/main-section1-bg1.png) no-repeat left top; position: absolute; left: 0; top: 0;}
 #main-section1::after {content: ''; width: 344px; height: 290px; background: url(../img/main-section1-bg2.png) no-repeat left top; position: absolute; right: 0; bottom: 0;}
 
 
-#main-section1 .main-section1-container {position: relative; max-width: 1200px; margin: 0 auto; height: 100%; padding-top: 150px;}
+#main-section1 .main-section1-container {position: relative; max-width: 1200px; margin: 0 auto; height: 100%; padding-top: 100px;}
 #main-section1 .main-section1-container h2 {font-size: 44px; text-align: center; margin-bottom: 80px;}
 #main-section1 .main-section1-container ul.slide {width: 100%; height: 500px; position: relative; z-index: 100;}
 #main-section1 .main-section1-container ul.slide li div.slide-wrap {display: flex; justify-content: space-between; width: 100%; flex-direction: row-reverse;}
@@ -107,7 +107,7 @@ font-size: 17px; font-weight: 400; padding-right: 34px; background: url(../img/i
 
 
 /* main-section2 */
-#main-section2 {width: 100%; height: 100vh; background: #f1f1f1 url(../img/main-section2-bg1.jpeg) no-repeat center center/cover;} 
+#main-section2 {width: 100%; height: 100vh; overflow: hidden; background: #f1f1f1 url(../img/main-section2-bg1.jpeg) no-repeat center center/cover;} 
 #main-section2 .main-section2-container {position: relative; max-width: 1200px; margin: 0 auto; height: 100%; padding-top: 150px; color: #fff;}
 #main-section2 .main-section2-container h2 {font-size: 44px; text-align: center; margin-bottom: 80px;}
 #main-section2 .main-section2-container ul li {position: relative; border: 1px solid #fff; height: 280px; width: 23.5%; float: left; margin-left: 15px; text-align: center; cursor: pointer;}
@@ -129,7 +129,7 @@ font-size: 17px; font-weight: 400; padding-right: 34px; background: url(../img/i
 
 
 /*  main-section3 */
-#main-section3 {width: 100%; height: 100vh; background: #e8e8e8;}
+#main-section3 {width: 100%; height: 100vh; overflow: hidden; background: #e8e8e8;}
 #main-section3 .main-section3-container {position: relative; max-width: 1200px; margin: 0 auto; height: 100%; padding-top: 150px;}
 #main-section3 .main-section3-container h2 {font-size: 44px; text-align: center; margin-bottom: 80px;}
 #main-section3 .main-section3-container div.question {position: relative; float: left; width: 31%; height: 244px; margin-right: 6%; font-family: 'NanumSquare';}
