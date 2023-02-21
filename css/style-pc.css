@@ -30,8 +30,7 @@ body {font-size: 15px; font-weight: 300; color: #333333; line-height: 1.4; lette
 #header.ks_header nav ul.nav_dep1 > li:last-child {margin-right: 0;}
 /* hover하면 border-bottom + color  */
 #header.ks_header nav ul.nav_dep1 > li > a {position: relative; display: block; height: 100%; line-height: 80px; font-size: 19px; font-family: "Nanum Square"; font-weight: 500;}
-#header.ks_header nav ul.nav_dep1 > li > a > .dote {position: absolute; display: block; right: -11px;
-bottom: 50px; width: 8px; height: 8px; background-color: #690909; border-radius: 100%;}
+#header.ks_header nav ul.nav_dep1 > li > a > .dote {position: absolute; display: block; right: -11px; bottom: 50px; width: 8px; height: 8px; background-color: #690909; border-radius: 100%;}
 #header.ks_header nav ul.nav_dep1 > li > a::after {content: ''; position: absolute; left: 50%; transform: translate(-50%, 0); bottom: 0; width: 0; height: 2px; background-color: #690909; transition: width 0.3s;}
 #header.ks_header nav ul.nav_dep1 > li > a:hover::after {width: 100%;}
 
