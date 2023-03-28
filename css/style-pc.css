@@ -1,7 +1,7 @@
 @charset "uft-8";
 
 /* common */
-body {font-size: 15px; font-weight: 300; color: #333333; line-height: 1.4; letter-spacing: -0.02em; background-color: #ffffff; font-family: 'NanumMyeongjo','NotoSansKR','NanumSquare';}
+body {font-size: 15px; font-weight: 300; color: #333333; line-height: 1.4; letter-spacing: -0.02em; background-color: #ffffff; font-family: 'NanumMyeongjo','NotoSansKR','NanumSquare' sans-serif;}
 .wrapper {overflow: hidden;}
 #skip-nav {position: fixed; left: 0; top: -40px; width: 100%; line-height: 40px; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: #ffffff; font-size: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.8); transition: top 0.3s; z-index: 100000;}
 #skip-nav:focus {top: 0;}
@@ -59,7 +59,7 @@ body {font-size: 15px; font-weight: 300; color: #333333; line-height: 1.4; lette
 #header #search-bg div.form div.form-container input.search {display: block;position: absolute; right: 0; top: 30%; background: url(../img/icon/header_sear_ico_black.png) no-repeat; border: none; width: 50px; height: 50px; text-indent: -9999px;}
 #header #search-bg div.search-container div.form a.btn_close {display: block; position: absolute; right: 230px; top: 40%; transform: translate(0, -40%);}
 
-/* main */
+/* main-visual */
 #main-visual {position: relative; width: 100%; height: 100vh; overflow: hidden; padding-top: 80px; font-family: 'NotoSans'}
 #main-visual > div {position: relative; width: 100%; height: 100%;}
 #main-visual ul.slide li {}
@@ -77,7 +77,6 @@ font-size: 17px; font-weight: 400; padding-right: 34px; background: url(../img/i
 #main-section1 {position: relative; width: 100%; height: 100vh; overflow: hidden; background: #f1f1f1 url(../img/main-section1-bg.jpeg) repeat;} 
 #main-section1::before {content: ''; width: 305px; height: 571px; background: url(../img/main-section1-bg1.png) no-repeat left top; position: absolute; left: 0; top: 0;}
 #main-section1::after {content: ''; width: 344px; height: 290px; background: url(../img/main-section1-bg2.png) no-repeat left top; position: absolute; right: 0; bottom: 0;}
-
 
 #main-section1 .main-section1-container {position: relative; max-width: 1200px; margin: 0 auto; height: 100%; padding-top: 100px;}
 #main-section1 .main-section1-container h2 {font-size: 44px; text-align: center; margin-bottom: 80px;}
