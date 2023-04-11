@@ -186,7 +186,7 @@ overflow: hidden; text-overflow: ellipsis;}
 #footer div.footer-top ul.link li + li::before {content: '⎥';}
 #footer div.footer-top ul.link li a {margin-left: 25px;}
 #footer div.footer-top ul.link li a.on {color: #d4ad26;}
-#footer div.footer-top ul.sns-link {position: absolute; right: 20px; top: 55%; transform: translate(0, -55%);}
+#footer div.footer-top ul.sns-link {display: none;}
 #footer div.footer-top ul.sns-link > li {float: left; padding-left: 10px;}
 #footer div.footer-top ul.sns-link > li > a {display: inline-block; background-color: #fff; border-radius: 50%;}
 
